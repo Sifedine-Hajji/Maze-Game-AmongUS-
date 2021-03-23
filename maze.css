@@ -1,0 +1,90 @@
+body {
+    background-image: repeating-linear-gradient(45deg, hsla(45,100%,71%,0.05) 0px, hsla(45,100%,71%,0.05) 1px,transparent 1px, transparent 11px,hsla(45,100%,71%,0.05) 11px, hsla(45,100%,71%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(0deg, hsla(45,100%,71%,0.05) 0px, hsla(45,100%,71%,0.05) 1px,transparent 1px, transparent 11px,hsla(45,100%,71%,0.05) 11px, hsla(45,100%,71%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(45deg, hsla(45,100%,71%,0.05) 0px, hsla(45,100%,71%,0.05) 1px,transparent 1px, transparent 11px,hsla(45,100%,71%,0.05) 11px, hsla(45,100%,71%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(45,100%,71%,0.05) 0px, hsla(45,100%,71%,0.05) 1px,transparent 1px, transparent 11px,hsla(45,100%,71%,0.05) 11px, hsla(45,100%,71%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(135, 90, 137),rgb(64, 32, 164));
+    color:#A4A697;
+    font-family: 'Nerko One', cursive;
+}
+.jumbotron {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    
+    
+}
+img {
+    width: 10%;
+}
+h1 {
+    display: inline-block;
+    display: flex;
+    padding-top: 3%;
+    font-size: 40px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.labyrinthe
+{
+    display: flex;
+    width: calc(13*48px);
+    flex-wrap: wrap;
+}
+
+.tile 
+{
+    width: 46px;
+    height: 46px;
+    border: 0.5px solid black;
+    display: flex;
+    justify-content: center;
+
+}
+
+.murs 
+{
+    background: linear-gradient(0deg, rgba(66,66,66,1) 36%, rgba(48,48,48,1) 81%);
+
+}
+
+.chemins
+{
+    background-color: darkgrey;
+    align-items: center;
+    background: url(Pics/floor.png);
+}
+
+.start 
+{
+    display: flex;
+    align-items: center;
+    background: url(Pics/Cafetaria.png);
+}
+
+.joueur 
+{
+    height: 30px;
+    width: 30px;
+    background: url(Pics/white.png) no-repeat;
+    text-align: center;
+}
+.imposteur
+{
+    height: 30px;
+    width: 30px;
+    background: url(Pics/imposteur.png) no-repeat;
+    text-align: center;
+}
+
+.end 
+{
+    display: flex;
+    align-items: center;
+}
+.tresor 
+{
+    height: 30px;
+    width: 30px;
+    background: url(Pics/report.png);
+}
